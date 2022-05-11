@@ -1,5 +1,4 @@
 // parts
-import { Counter } from './components/Counter';
 import { RepositoryList } from './components/RepositoryList';
 
 // style
@@ -10,7 +9,6 @@ export function App() {
   return(
     <>
       <RepositoryList />
-      <Counter />
     </>
   );
 }
